@@ -98,3 +98,7 @@ class EventBan(commands.Cog):
                     await after.remove_roles(dank_role, reason="Cannot regain Dank Players while event banned")
                 except:
                     pass
+
+# This is required for Red to load the cog
+async def setup(bot):
+    await bot.add_cog(EventBan(bot))
