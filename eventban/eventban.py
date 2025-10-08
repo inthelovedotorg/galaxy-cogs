@@ -3,10 +3,10 @@ import discord
 import asyncio
 from datetime import datetime, timedelta
 
-EVENT_MANAGER_ROLE_ID = 2827636272772  # Event Manager role
-EVENT_BAN_ROLE_ID = 27273626722        # Event Ban role
-DANK_PLAYERS_ROLE_ID = 1827372727      # Dank Players role
-LOG_CHANNEL_ID = 2937738282828         # Logging channel
+EVENT_MANAGER_ROLE_ID = 1235497516267474985  # Event Manager role
+EVENT_BAN_ROLE_ID = 1138122175195394078        # Event Ban role
+DANK_PLAYERS_ROLE_ID = 1137553455565787200      # Dank Players role
+LOG_CHANNEL_ID = 1251434298322587690         # Logging channel
 BAN_DURATION_HOURS = 6                  # Duration of event ban
 
 class EventBan(commands.Cog):
