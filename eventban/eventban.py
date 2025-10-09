@@ -100,5 +100,6 @@ class EventBan(commands.Cog):
                 except:
                     pass
 
-async def setup(bot):
-    await bot.add_cog(EventBan(bot))
+async def setup(bot: Red) -> None:
+    cog = Eventban(bot)
+    await bot.add_cog(cog)
