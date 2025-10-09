@@ -1,5 +1,5 @@
 
-from redbot.core.bot import Red
+from redbot.core import Red
 
 from .eventban import EventBan
 
