@@ -1,4 +1,5 @@
 from redbot.core import commands, Config, checks
+from redbot.core.bot import Red
 import discord
 import asyncio
 from datetime import datetime, timedelta
